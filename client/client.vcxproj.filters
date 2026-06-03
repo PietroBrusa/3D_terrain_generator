@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione\views">
+      <UniqueIdentifier>{bbf3d66d-210c-48a7-af49-987c0b2c7c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\views">
+      <UniqueIdentifier>{2511c713-ae55-47dd-b266-2d51d88523af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\models">
+      <UniqueIdentifier>{40997d9b-f247-4858-a9b1-ed4929de7bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\models">
+      <UniqueIdentifier>{a7b84027-9a74-49f0-9b03-a5d9ed5c8a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\models\brushes">
+      <UniqueIdentifier>{6a1d86be-4eab-42f6-a6e6-8a149cf6a962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\models\brushes">
+      <UniqueIdentifier>{b9452fb6-71ce-4d6d-a4fe-0ed43067ab93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\models\selection">
+      <UniqueIdentifier>{aba05d2f-90e3-4875-8724-297399c854c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\models\selection">
+      <UniqueIdentifier>{fec495d3-d4dd-4b16-b780-154e6f64dcc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\controllers">
+      <UniqueIdentifier>{ee38c80b-e555-48a5-ad55-4d7ee056e207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\controllers">
+      <UniqueIdentifier>{1e8a71da-925c-4ec6-92d7-87e4cc7b8e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\exporter">
+      <UniqueIdentifier>{9e203913-2232-45fd-b975-cd045833975c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\exporter">
+      <UniqueIdentifier>{0adb1826-75cd-499b-9767-b18efd4828a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\views\tools">
+      <UniqueIdentifier>{efa987bc-baa0-4e0e-bb17-e9d874e3cbe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\views\tools">
+      <UniqueIdentifier>{2e0872f2-334b-44d0-bc44-d4d3b29a9561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\models\terrain">
+      <UniqueIdentifier>{b63cda47-887a-4490-9141-914b11fb7837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\models\visuals">
+      <UniqueIdentifier>{6b260f54-4e7f-4427-bccb-97d930ca489c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\models\visual">
+      <UniqueIdentifier>{934b2ca3-c3d1-4fad-b5ed-5d7cef7bb27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\dispatchers">
+      <UniqueIdentifier>{5cc40dc1-6836-499e-a028-020532307243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\controllers\tools">
+      <UniqueIdentifier>{7563704c-9ff2-4eda-9896-d71c4590d841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\controllers\tools">
+      <UniqueIdentifier>{ee2d8532-10e5-4d95-9cc4-7b9d058c8ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\views\dockers">
+      <UniqueIdentifier>{63e5b484-14ef-4dfc-9c70-ad76ba6c9e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\views\dockers">
+      <UniqueIdentifier>{3eadf429-63f0-4876-870b-265764f2b9e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\models\terrain">
+      <UniqueIdentifier>{728fcc6f-261a-4683-a58c-ce5228e144c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseWindow.h">
+      <Filter>File di intestazione\views</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupWindow.h">
+      <Filter>File di intestazione\views</Filter>
+    </ClInclude>
+    <ClInclude Include="AnchorWindow.h">
+      <Filter>File di intestazione\views</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTool.h">
+      <Filter>File di intestazione\models</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorTool.h">
+      <Filter>File di intestazione\models\selection</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBrushTool.h">
+      <Filter>File di intestazione\models\brushes</Filter>
+    </ClInclude>
+    <ClInclude Include="configuration.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="SculpingBrushTool.h">
+      <Filter>File di intestazione\models\brushes</Filter>
+    </ClInclude>
+    <ClInclude Include="SmoothingBrushTool.h">
+      <Filter>File di intestazione\models\brushes</Filter>
+    </ClInclude>
+    <ClInclude Include="ErosionBrushTool.h">
+      <Filter>File di intestazione\models\brushes</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageExporter.h">
+      <Filter>File di intestazione\exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="miniz.h">
+      <Filter>File di intestazione\exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjExporter.h">
+      <Filter>File di intestazione\exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyexr.h">
+      <Filter>File di intestazione\exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolWindow.h">
+      <Filter>File di intestazione\views\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerToolWindow.h">
+      <Filter>File di intestazione\views\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraGestureController.h">
+      <Filter>File di intestazione\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainConfig.h">
+      <Filter>File di intestazione\models\terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureConfig.h">
+      <Filter>File di intestazione\models\terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualToolWindow.h">
+      <Filter>File di intestazione\views\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseVisualTool.h">
+      <Filter>File di intestazione\models\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadesVisualTool.h">
+      <Filter>File di intestazione\models\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="SolidVisualTool.h">
+      <Filter>File di intestazione\models\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="WireframeVisualTool.h">
+      <Filter>File di intestazione\models\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDispatcher.h">
+      <Filter>File di intestazione\dispatchers</Filter>
+    </ClInclude>
+    <ClInclude Include="IToolListener.h">
+      <Filter>File di intestazione\controllers\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualController.h">
+      <Filter>File di intestazione\controllers\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerController.h">
+      <Filter>File di intestazione\controllers\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolController.h">
+      <Filter>File di intestazione\controllers\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="UIController.h">
+      <Filter>File di intestazione\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="ISetupListener.h">
+      <Filter>File di intestazione\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupController.h">
+      <Filter>File di intestazione\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="TopMenuBar.h">
+      <Filter>File di intestazione\views\dockers</Filter>
+    </ClInclude>
+    <ClInclude Include="AppEvents.h">
+      <Filter>File di intestazione\dispatchers</Filter>
+    </ClInclude>
+    <ClInclude Include="AppController.h">
+      <Filter>File di intestazione\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusBar.h">
+      <Filter>File di intestazione\views\dockers</Filter>
+    </ClInclude>
+    <ClInclude Include="IToolSettingsWindow.h">
+      <Filter>File di intestazione\views\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerToolSettingsWindow.h">
+      <Filter>File di intestazione\views\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="AltitudeVisualTool.h">
+      <Filter>File di intestazione\models\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="CentredWindow.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="InputController.h">
+      <Filter>File di intestazione\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureGenerator.h">
+      <Filter>File di intestazione\models\terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise.hpp">
+      <Filter>File di intestazione\models\terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainGenerator.h">
+      <Filter>File di intestazione\models\terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainModel.h">
+      <Filter>File di intestazione\models\terrain</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SetupWindow.cpp">
+      <Filter>File di origine\views</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseWindow.cpp">
+      <Filter>File di origine\views</Filter>
+    </ClCompile>
+    <ClCompile Include="CentredWindow.cpp">
+      <Filter>File di origine\views</Filter>
+    </ClCompile>
+    <ClCompile Include="AnchorWindow.cpp">
+      <Filter>File di origine\views</Filter>
+    </ClCompile>
+    <ClCompile Include="CursorTool.cpp">
+      <Filter>File di origine\models\selection</Filter>
+    </ClCompile>
+    <ClCompile Include="SculpingBrushTool.cpp">
+      <Filter>File di origine\models\brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="SmoothingBrushTool.cpp">
+      <Filter>File di origine\models\brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="ErosionBrushTool.cpp">
+      <Filter>File di origine\models\brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageExporter.cpp">
+      <Filter>File di origine\exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolWindow.cpp">
+      <Filter>File di origine\views\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerToolWindow.cpp">
+      <Filter>File di origine\views\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraGestureController.cpp">
+      <Filter>File di origine\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualToolWindow.cpp">
+      <Filter>File di origine\views\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadesVisualTool.cpp">
+      <Filter>File di origine\models\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="SolidVisualTool.cpp">
+      <Filter>File di origine\models\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="WireframeVisualTool.cpp">
+      <Filter>File di origine\models\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerController.cpp">
+      <Filter>File di origine\controllers\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualController.cpp">
+      <Filter>File di origine\controllers\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="UIController.cpp">
+      <Filter>File di origine\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="TopMenuBar.cpp">
+      <Filter>File di origine\views\dockers</Filter>
+    </ClCompile>
+    <ClCompile Include="AppController.cpp">
+      <Filter>File di origine\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusBar.cpp">
+      <Filter>File di origine\views\dockers</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerToolSettingsWindow.cpp">
+      <Filter>File di origine\views\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="AltitudeVisualTool.cpp">
+      <Filter>File di origine\models\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="SetupController.cpp">
+      <Filter>File di origine\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="miniz.c">
+      <Filter>File di origine\exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="InputController.cpp">
+      <Filter>File di origine\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjExporter.cpp">
+      <Filter>File di origine\exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainGenerator.cpp">
+      <Filter>File di origine\models\terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureGenerator.cpp">
+      <Filter>File di origine\models\terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainModel.cpp">
+      <Filter>File di origine\models\terrain</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

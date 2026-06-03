@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="client/client.vcxproj" Id="650e9c33-14b6-4dbd-9268-80012de9750a">
+    <BuildDependency Project="engine/engine.vcxproj" />
+  </Project>
+  <Project Path="engine/engine.vcxproj" Id="2e085aa3-fd6a-4d1f-8a97-1cce34be1a65" />
+  <Project Path="imgui/imgui.vcxproj" Id="5566999b-cc55-4cc0-80ad-d69e73af00a6" />
+  <Project Path="TerrainGenerator.Tests/TerrainGenerator.Tests.vcxproj" Id="de6e2ef6-d8e3-46c8-9f0e-a14a722be5a1" />
+</Solution>

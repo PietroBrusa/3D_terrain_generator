@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>18.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{650e9c33-14b6-4dbd-9268-80012de9750a}</ProjectGuid>
+    <RootNamespace>client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>..\dependencies\glm\include;..\imgui;..\engine</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>imgui.lib;engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>..\dependencies\glm\include;..\imgui;..\engine</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>imgui.lib;engine.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AnchorWindow.h" />
+    <ClInclude Include="AppController.h" />
+    <ClInclude Include="AppEvents.h" />
+    <ClInclude Include="BaseBrushTool.h" />
+    <ClInclude Include="BaseTool.h" />
+    <ClInclude Include="BaseVisualTool.h" />
+    <ClInclude Include="BaseWindow.h" />
+    <ClInclude Include="InputController.h" />
+    <ClInclude Include="TerrainModel.h" />
+    <ClInclude Include="CameraGestureController.h" />
+    <ClInclude Include="ErosionBrushTool.h" />
+    <ClInclude Include="EventDispatcher.h" />
+    <ClInclude Include="IToolSettingsWindow.h" />
+    <ClInclude Include="ISetupListener.h" />
+    <ClInclude Include="IToolListener.h" />
+    <ClInclude Include="AltitudeVisualTool.h" />
+    <ClInclude Include="PointerToolSettingsWindow.h" />
+    <ClInclude Include="PointerToolWindow.h" />
+    <ClInclude Include="SculpingBrushTool.h" />
+    <ClInclude Include="configuration.h" />
+    <ClInclude Include="CursorTool.h" />
+    <ClInclude Include="ImageExporter.h" />
+    <ClInclude Include="miniz.h" />
+    <ClInclude Include="ObjExporter.h" />
+    <ClInclude Include="PerlinNoise.hpp" />
+    <ClInclude Include="PointerController.h" />
+    <ClInclude Include="SetupController.h" />
+    <ClInclude Include="SetupWindow.h" />
+    <ClInclude Include="ShadesVisualTool.h" />
+    <ClInclude Include="SmoothingBrushTool.h" />
+    <ClInclude Include="SolidVisualTool.h" />
+    <ClInclude Include="StatusBar.h" />
+    <ClInclude Include="TerrainConfig.h" />
+    <ClInclude Include="TerrainGenerator.h" />
+    <ClInclude Include="TextureConfig.h" />
+    <ClInclude Include="tinyexr.h" />
+    <ClInclude Include="ToolController.h" />
+    <ClInclude Include="ToolWindow.h" />
+    <ClInclude Include="TopMenuBar.h" />
+    <ClInclude Include="UIController.h" />
+    <ClInclude Include="VisualController.h" />
+    <ClInclude Include="VisualToolWindow.h" />
+    <ClInclude Include="WireframeVisualTool.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnchorWindow.cpp" />
+    <ClCompile Include="AppController.cpp" />
+    <ClCompile Include="BaseWindow.cpp" />
+    <ClCompile Include="CameraGestureController.cpp" />
+    <ClCompile Include="CentredWindow.cpp" />
+    <ClInclude Include="CentredWindow.h" />
+    <ClCompile Include="CursorTool.cpp" />
+    <ClCompile Include="ErosionBrushTool.cpp" />
+    <ClCompile Include="ImageExporter.cpp" />
+    <ClCompile Include="InputController.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="miniz.c" />
+    <ClCompile Include="AltitudeVisualTool.cpp" />
+    <ClCompile Include="ObjExporter.cpp" />
+    <ClCompile Include="PointerToolSettingsWindow.cpp" />
+    <ClCompile Include="SetupController.cpp" />
+    <ClCompile Include="ShadesVisualTool.cpp" />
+    <ClCompile Include="SolidVisualTool.cpp" />
+    <ClCompile Include="StatusBar.cpp" />
+    <ClCompile Include="TerrainGenerator.cpp" />
+    <ClCompile Include="TerrainModel.cpp" />
+    <ClCompile Include="TextureGenerator.cpp" />
+    <ClInclude Include="TextureGenerator.h" />
+    <ClCompile Include="PointerController.cpp" />
+    <ClCompile Include="PointerToolWindow.cpp" />
+    <ClCompile Include="SculpingBrushTool.cpp" />
+    <ClCompile Include="SetupWindow.cpp" />
+    <ClCompile Include="SmoothingBrushTool.cpp" />
+    <ClCompile Include="ToolWindow.cpp" />
+    <ClCompile Include="TopMenuBar.cpp" />
+    <ClCompile Include="UIController.cpp" />
+    <ClCompile Include="VisualController.cpp" />
+    <ClCompile Include="VisualToolWindow.cpp" />
+    <ClCompile Include="WireframeVisualTool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\engine\engine.vcxproj">
+      <Project>{2e085aa3-fd6a-4d1f-8a97-1cce34be1a65}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\imgui\imgui.vcxproj">
+      <Project>{5566999b-cc55-4cc0-80ad-d69e73af00a6}</Project>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

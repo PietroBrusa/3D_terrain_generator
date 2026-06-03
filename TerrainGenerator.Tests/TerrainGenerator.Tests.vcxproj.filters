@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="..\client\InputController.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\client\AltitudeVisualTool.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\AnchorWindow.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\AppController.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\BaseWindow.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\CameraGestureController.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\CentredWindow.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\CursorTool.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\ErosionBrushTool.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\ImageExporter.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\PointerController.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\PointerToolSettingsWindow.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\PointerToolWindow.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\SculpingBrushTool.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\SetupController.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\SetupWindow.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\ShadesVisualTool.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\SmoothingBrushTool.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\SolidVisualTool.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\StatusBar.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\TerrainGenerator.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\TerrainModel.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\TextureGenerator.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\ToolWindow.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\TopMenuBar.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\UIController.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\VisualController.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\VisualToolWindow.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\WireframeVisualTool.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\miniz.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="InputControllerTest.cpp">
+      <Filter>controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="AppControllerTest.cpp">
+      <Filter>controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraGestureControllerTest.cpp">
+      <Filter>controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SetupControllerTest.cpp">
+      <Filter>controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerControllerTest.cpp">
+      <Filter>controllers\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualControllerTest.cpp">
+      <Filter>controllers\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageExporterTest.cpp">
+      <Filter>exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjExporterTest.cpp">
+      <Filter>exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\ObjExporter.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainGeneratorTest.cpp">
+      <Filter>models\terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureGeneratorTest.cpp">
+      <Filter>models\terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainModelTest.cpp">
+      <Filter>models\terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="BrushToolTest.cpp">
+      <Filter>models\brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="ErosionBrushToolTest.cpp">
+      <Filter>models\brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="SculptingBrushToolTest.cpp">
+      <Filter>models\brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="SmoothingBrushToolTest.cpp">
+      <Filter>models\brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="CursorToolTest.cpp">
+      <Filter>models\selection</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="client">
+      <UniqueIdentifier>{f907d51f-1dd3-43d8-884a-1eca36b83819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controllers">
+      <UniqueIdentifier>{abaf96f6-8e7a-4372-bdc6-30d54a2c2bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controllers\tools">
+      <UniqueIdentifier>{e1d6147e-0745-454e-8071-1455d6a6666c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exporter">
+      <UniqueIdentifier>{27364283-25fa-4b43-8a01-cc69def322f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models">
+      <UniqueIdentifier>{3dcccbec-1cdb-4032-be32-a013a8c68efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models\terrain">
+      <UniqueIdentifier>{5840d99f-c2a7-467c-8b36-446c492783c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models\brushes">
+      <UniqueIdentifier>{67382cc0-c37e-495a-8b59-0b51fd922042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models\selection">
+      <UniqueIdentifier>{3f0cf2e3-94bb-4051-8c03-5bd4433bed2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

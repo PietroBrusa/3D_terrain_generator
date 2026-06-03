@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione\backends">
+      <UniqueIdentifier>{1cc5830f-14c9-4bfc-88f4-a29a8ba5416b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\backends">
+      <UniqueIdentifier>{5012e9e5-936d-432a-8b3d-07117180cddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\nfd">
+      <UniqueIdentifier>{bf027ac9-596e-45a1-bf3a-d485d4f67b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\nfd">
+      <UniqueIdentifier>{17515bc5-98ad-480f-9b03-a01c58cf5ea1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="backends\imgui_impl_glut.cpp">
+      <Filter>File di origine\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="backends\imgui_impl_opengl3.cpp">
+      <Filter>File di origine\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="nfd_win.cpp">
+      <Filter>File di origine\nfd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imconfig.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="backends\imgui_impl_glut.h">
+      <Filter>File di intestazione\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="backends\imgui_impl_opengl3.h">
+      <Filter>File di intestazione\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="backends\imgui_impl_opengl3_loader.h">
+      <Filter>File di intestazione\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="nfd.h">
+      <Filter>File di intestazione\nfd</Filter>
+    </ClInclude>
+    <ClInclude Include="nfd.hpp">
+      <Filter>File di intestazione\nfd</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
