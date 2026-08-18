@@ -4,6 +4,26 @@ Welcome to the documentation for **3D Terrain Generator**, a graphical tool deve
 
 This software was created as a semester project for the third year of the **Computer Engineering** bachelor's degree at **SUPSI DTI** (Department of Innovative Technologies), developed by **Giona Valsecchi** and **Pietro Brusadelli** ([@PietroBrusa](https://github.com/PietroBrusa)).
 
+<img width="944" height="531" alt="immagine" src="https://github.com/user-attachments/assets/c9fddcba-3257-484c-a6ab-997d1049c9dc" />
+
+## Level of details
+
+<img width="944" height="531" alt="immagine" src="https://github.com/user-attachments/assets/eb1d65f7-d59e-4e31-8665-5537d0872193" />
+
+## Different types of view 
+
+Realistic:
+<img width="938" height="509" alt="immagine" src="https://github.com/user-attachments/assets/5d58fad4-4ec7-4b23-b719-53410b13cb2b" />
+
+Solid:
+<img width="938" height="497" alt="immagine" src="https://github.com/user-attachments/assets/bd80aa1f-dd83-4cfe-add1-ddfbc9345e7e" />
+
+Wireframe:
+<img width="938" height="513" alt="immagine" src="https://github.com/user-attachments/assets/5804df36-c625-4632-ad93-283c7044d7c7" />
+
+Altimetric:
+<img width="938" height="537" alt="immagine" src="https://github.com/user-attachments/assets/d4345357-4b64-4d99-a3a2-f36e046f88a3" />
+
 ---
 
 ## Tech Stack and Behind the Scenes
